@@ -13,7 +13,7 @@ Aortic stenosis (AS) is a progressive and life-threatening valvular disease that
 **SSML-Net** is proposed to overcome the limitations of constrained labeled samples and insufficient exploitation of visual and label semantic information in automated deep learning methods. By effectively leveraging large-scale unlabeled echocardiograms and semantic information derived from class labels, SSML-Net achieves state-of-the-art performance for AS severity classification.
 
 ### ✨ Key Components
-* **Semi-supervised Visual Representation Learning Branch:** Features a **Global–Local Feature Enhancement Encoder (GLFE-Encoder)** designed to capture both local structural cues and global contextual information.
+* **Global–Local Feature Enhancement Encoder (GLFE-Encoder):** Designed to capture both local structural cues and global contextual information.
 * **Adaptive Unified Contrastive Learning (AUCL):** Performs confidence-aware sample partitioning and dynamically incorporates unconfident samples to refine the decision boundary.
 * **Label Semantics-Driven Visual-Text (LSVT) Alignment:** Converts class labels into semantic text and applies a de-similarity constraint to mitigate inter-class semantic confusion. This explicitly aligns visual and textual features, enhancing fine-grained discrimination under limited annotations.
 
